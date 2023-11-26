@@ -3,12 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Time Scale</title>
-    <script type="text/javascript">
-      if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-          window.location.href = "https://timescale.stardomga.me/mobile";
-      }
-  </script>
+    <title>Unity WebGL Player | Time Scale</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="manifest" href="manifest.webmanifest">
@@ -62,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebBuild.loader.js";
+      var loaderUrl = buildUrl + "/TimeScale.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebBuild.data",
-        frameworkUrl: buildUrl + "/WebBuild.framework.js",
-        codeUrl: buildUrl + "/WebBuild.wasm",
+        dataUrl: buildUrl + "/TimeScale.data",
+        frameworkUrl: buildUrl + "/TimeScale.framework.js",
+        codeUrl: buildUrl + "/TimeScale.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Stardom Games",
         productName: "Time Scale",

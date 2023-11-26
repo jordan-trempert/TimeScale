@@ -1,9 +1,9 @@
 const cacheName = "Stardom Games-Time Scale-1.0";
 const contentToCache = [
-    "Build/WebBuild.loader.js",
-    "Build/WebBuild.framework.js",
-    "Build/WebBuild.data",
-    "Build/WebBuild.wasm",
+    "Build/TimeScale.loader.js",
+    "Build/TimeScale.framework.js",
+    "Build/TimeScale.data",
+    "Build/TimeScale.wasm",
     "TemplateData/style.css"
 
 ];
